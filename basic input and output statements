@@ -1,0 +1,4 @@
+age=int(input("Enter Your age"))
+name=input("enter your name")
+hobby=input("enter your favourite hobby")
+print("Hello, my name is"+name+".I am "+str(age)+"years old,and I love"+hobby)
