@@ -1,0 +1,8 @@
+#printing all even numbers from 1 to 20 but skipping numbers divsible by 3
+
+for i in range (1,11):
+ num=2*i
+#here i used if num==0 so that does not print 0 but after review i learned that we can specify the range
+ if num%3==0:
+     continue
+ print(num)
