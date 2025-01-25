@@ -1,0 +1,8 @@
+def add_and_subtract(a, b):
+    sum_result = a + b
+    diff_result = a - b
+    return sum_result, diff_result
+
+# Unpacking the return values
+total, difference = add_and_subtract(10, 5)
+print(f"Sum: {total}, Difference: {difference}")
