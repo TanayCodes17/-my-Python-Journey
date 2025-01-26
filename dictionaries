@@ -1,0 +1,11 @@
+my_dic={"name":"Alex","age":21,"hobbies":"chess","city":"london"}
+my_dic["country"]="United states"
+my_dic["age"]=22
+my_dic.pop("hobbies")
+print(my_dic.items())
+for key, value in my_dic.items():
+    print(f"{key}: {value}")
+for tabay in my_dic:
+    print(tabay)
+for key,values in my_dic.items():
+    print(f"{key}:{values}")
