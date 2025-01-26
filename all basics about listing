@@ -1,0 +1,22 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+books=["the book theif", "pride and prejudice", "the great gatsby","the handmade tale","Brave new world"]
+#lists
+print(books)
+more_books=["to kill a mockinbird","atomic habbits"]
+#adding list to original
+books.extend(more_books)
+print(books)
+books.remove("the handmade tale")
+print(books)
+#removing certain elements from the book
+books[1]="rich dad poor dad"
+
+print(books)
+print(books[:3])
+#slicing of list
+
+nested_books=[["rich dad poor dad","the book theif"],["Robert Kiyosaki","markus zusak"]]
+print(nested_books[1][1])
+books.reverse()
+print(books)
