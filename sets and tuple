@@ -1,0 +1,15 @@
+my_tuple=(5,6,7,8,"python")
+print(my_tuple[0])
+print(my_tuple[-1])
+# my_tuple.remove("python")#gives error as tuple cannot be modified 
+
+
+my_set={5,5,5,6,6,7,7,88,5,4,3}
+my_set1={9,1,16,5}
+print(my_set.union(my_set1))
+print(my_set.intersection(my_set1))
+my_set.add(69)
+my_set1.remove(16)
+print(my_set)
+print(my_set1)
+#above is set used for mathmatical opertaions common elements are not printed 
